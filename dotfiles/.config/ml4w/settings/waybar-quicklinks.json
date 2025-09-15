@@ -5,45 +5,46 @@ You can reload waybar with SUPER + SHIFT + B
 */
 {
     "custom/quicklink_browser": {
-        "format": "",
-        "on-click": "~/.config/ml4w/settings/browser.sh",
-        "tooltip-format": "Open Browser"
+        "format": "",
+        "on-click": "audacious",
+        "tooltip-format": "Open Audacious"
     },
     "custom/quicklink_filemanager": {
         "format": "",
-        "on-click": "~/.config/ml4w/settings/filemanager.sh",
+        "on-click": "dolphin",
         "tooltip-format": "Open Filemanager"
     },
-    "custom/quicklink_email": {
-        "format": "",
-        "on-click": "~/.config/ml4w/settings/email.sh",
-        "tooltip-format": "Open Email Client"
-    },
     "custom/quicklink_chromium": {
-        "format": "",
-        "on-click": "chromium",
-        "tooltip-format": "Open Chromium"
+        "format": "",
+        "on-click": "AyuGram",
+        "tooltip-format": "Open Telegram"
     },
     "custom/quicklink_edge": {
-        "format": "",
-        "on-click": "edge",
-        "tooltip-format": "Open Edge"
+        "format": "",
+        "on-click": "legcord",
+        "tooltip-format": "Open Legcord"
     },
     "custom/quicklink_firefox": {
-        "format": "",
-        "on-click": "firefox",
-        "tooltip-format": "Open Firefox"
+        "format": "",
+        "on-click": "audacity",
+        "tooltip-format": "Open Audacity"
     },
     "custom/quicklink_thunderbird": {
-        "format": "",
-        "on-click": "thunderbird",
-        "tooltip-format": "Open Thunderbird"
+        "format": "",
+        "on-click": "flatpak run org.torproject.torbrowser-launcher",
+        "tooltip-format": "Open Tor Browser"
     },
     "custom/quicklink_calculator": {
-        "format": "",
-        "on-click": "~/.config/ml4w/settings/calculator.sh",
-        "tooltip-format": "Open calculator"
+        "format": "",
+        "on-click": "jellyfinmediaplayer",
+        "tooltip-format": "Open Jellyfin Media Player"
     },
+    "custom/quicklink_email": {
+        "format": "",
+        "on-click": "obsidian",
+        "tooltip-format": "Open Obsidian"
+    },
+
 /*
 Don't remove the quicklinkempty
 */
@@ -57,8 +58,13 @@ Add your quicklinks in your desired order to the status bar
         "modules": [
 
             "custom/quicklink_browser",
-            "custom/quicklink_email",
             "custom/quicklink_filemanager",
+            "custom/quicklink_edge",
+            "custom/quicklink_chromium",
+            "custom/quicklink_firefox",
+            "custom/quicklink_thunderbird",
+            "custom/quicklink_calculator",
+            "custom/quicklink_email",
 
 /*
 Don't remove the quicklinkempty
